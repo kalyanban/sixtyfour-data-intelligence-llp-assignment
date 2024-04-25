@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 12px;
+    margin: 0;
+    background-color: rgb(116, 8, 218);
+    color: antiquewhite;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.date-container, .time-container {
+    display: flex;
+    align-items: center;
+}
+.date, .time {
+    padding-left: 8px;
+}
+.name {
+    font-size: 20px;
+}
+.name-text {
+    font-size: 14px;
+}

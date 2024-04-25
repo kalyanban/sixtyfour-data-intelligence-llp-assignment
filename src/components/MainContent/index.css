@@ -1,0 +1,80 @@
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-left: 180px;
+}
+.blocks-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(201, 228, 238);
+    padding: 15px;
+    height: 140px;
+    width: 220px;
+    border-radius: 12px;
+}
+
+  
+  .block-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .block-list-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;width: 100%;
+  }
+  
+  .block-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 400px;
+    width: 300px;
+    margin-right: 20px;
+  }
+  .block-image {
+    height: 50%;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .toggle-btn-container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .view-more-btn,
+  .view-less-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .view-more-btn:hover,
+  .view-less-btn:hover {
+    background-color: #0056b3;
+  }
+  
